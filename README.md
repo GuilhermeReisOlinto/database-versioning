@@ -4,12 +4,12 @@ Automated database table creation. This repository centralizes the scripts for t
 
 1. Create tables 
 
-```make migrate
+```make migrate```
 
 2. Create data fake
 
-``` make seed
+``` make seed```
 
 3. Reset database and recreate tables and data fake
 
-``` make reset
+``` make reset```
