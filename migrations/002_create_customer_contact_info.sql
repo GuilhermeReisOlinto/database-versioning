@@ -8,6 +8,6 @@ CREATE TABLE customer_contact_info (
     fathers_phone VARCHAR(255),
     mothers_name VARCHAR(255) NOT NULL,
     mothers_phone VARCHAR(255),
-    data_customer_id INT NOT NULL,
-    FOREIGN KEY (data_customer_id) REFERENCES data_customer (data_customer_id) ON DELETE CASCADE
+    customer_id INT NOT NULL,
+    FOREIGN KEY (customer_id) REFERENCES customer_data (customer_id) ON DELETE CASCADE
 );
