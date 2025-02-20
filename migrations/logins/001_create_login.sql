@@ -4,5 +4,5 @@ CREATE TABLE login (
     password VARCHAR(255) NOT NULL,
     customer_id INT NOT NULL,
     active BOOLEAN NOT NULL,
-    created_at TIMESTAMP NOT NULL NOW()
+    created_at TIMESTAMP NOT NULL
 );

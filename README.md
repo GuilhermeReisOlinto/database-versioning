@@ -15,3 +15,8 @@ Automated database table creation. This repository centralizes the scripts for t
 
     ``` 
     make reset
+
+4. Permission 
+
+    ```
+    chmod +x nome_do_seu_script.sh
