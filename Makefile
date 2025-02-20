@@ -1,10 +1,13 @@
 .PHONY: migrate seed reset
 
-migrate:
-	./run_migrations.sh
+migrate customers:
+	./run_migrations_customers.sh
 
-seed:
+seed customers:
 	./run_seeds.sh
 
-reset: 
+reset customers: 
 	./run_reset.sh
+
+migrate logins:
+	./run_migrations_logins.sh
